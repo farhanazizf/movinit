@@ -16,15 +16,57 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <!-- font awesome -->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
       integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
       crossorigin="anonymous"
     />
+
     <!-- <link rel="stylesheet" href="style.css" /> -->
 
     <title>MOVINFO</title>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">MOVINFO</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Search Movies</a>
+          </li>
+        </ul>
+
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
   </head>
 
   <!-- 2. mulai body disini -->
@@ -33,7 +75,47 @@
   </body>
 
   <!-- 3. mulai footer disini (aksesoris) -->
-  <footer class="navbar py-5 bg-light mt-5"></footer>
+  <footer class="navbar py-5 bg-dark text-light mt-5">
+    <div class="container d-flex align-items-start">
+      <div class="col-md-4" style="min-height: 125px">
+        <h4>MOVINFO</h4>
+        <p class="text-secondary" id="foot">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+          voluptatem numquam facilis harum est, eum nesciunt magnam neque culpa
+          quod! Totam perspiciatis iste laboriosam eveniet laudantium illo
+          fugiat autem odio!
+        </p>
+      </div>
+      <div class="col-md-2 ml-1 float-right" style="min-height: 125px">
+        <h4>USER</h4>
+        <p class="my-0">
+          <a href="#" role="button" class="text-secondary">Users</a>
+        </p>
+        <p class="my-0">
+          <a href="#" role="button" class="text-secondary">Register User</a>
+        </p>
+        <p class="my-0">
+          <a href="#" role="button" class="text-secondary my-0"
+            >Terms & Condition User</a
+          >
+        </p>
+        <p class="my-0">
+          <a href="#" role="button" class="text-secondary my-0">FAQ User</a>
+        </p>
+      </div>
+      <div class="col-md-5" style="min-height: 125px">
+        <h4>Follow us on</h4>
+        <div class="social mt-3">
+          <i id="facebook" class="fab fa-facebook-f mr-3"></i>
+          <i id="instagram" class="fab fa-instagram mr-3"></i>
+          <i id="google" class="fab fa-google-plus mr-3"></i>
+          <i id="youtube" class="fab fa-youtube mr-3"></i>
+          <i id="twitter" class="fab fa-twitter mr-3"></i>
+          <i id="linkedin" class="fab fa-linkedin mr-3"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script
