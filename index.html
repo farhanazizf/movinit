@@ -45,12 +45,12 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#"
+            <a class="nav-link" href="#" id="homeMenu"
               >Home <span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Search Movies</a>
+            <a class="nav-link" href="#" id="movieMenu">Search Movies</a>
           </li>
         </ul>
 
@@ -71,7 +71,19 @@
 
   <!-- 2. mulai body disini -->
   <body>
-    <div id="main-body"></div>
+    <div id="main-body">
+      <!-- home page  -->
+      <div class="jumbotron jumbotron-fluid" id="container-page-home">
+        <h1 class="display-4 text-center">MOVINFO</h1>
+        <hr class="my-4" />
+        <p class="lead text-center">Pakresif UBP - Public API Movies</p>
+      </div>
+
+      <!-- searchmovies page -->
+      <div class="container d-none" id="container-page-search">
+        <p>Search Movies page</p>
+      </div>
+    </div>
   </body>
 
   <!-- 3. mulai footer disini (aksesoris) -->
